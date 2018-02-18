@@ -16,18 +16,18 @@ height: 3%;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-
 }
 #container img {
   flex-grow: 3;
-  margin: 10px;
-
+  margin: 5px;
 
 }
 
+
+
 @media (min-width: 1036px) {
 input[type="text"] {
-  width: 30%;
+  width: 35.5%;
 }
 
 #container {
@@ -35,6 +35,6 @@ flex-wrap: wrap;
 width: 75%;
 }
 #container img {
-  flex-grow: 3;
-  margin: 10px;
+  flex-grow: 5;
+  margin: 25px;
 }
