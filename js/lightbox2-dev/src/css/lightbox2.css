@@ -34,6 +34,7 @@ html.lb-disable-scrolling {
   max-height: none;
   border-radius: 3px;
 
+
   /* Image border */
   border: 4px solid white;
 }
@@ -160,21 +161,28 @@ html.lb-disable-scrolling {
 }
 
 .lb-data .lb-details {
-  width: 85%;
-  float: left;
+  width: 600px;
+  float: none;
   text-align: left;
   line-height: 1.1em;
+  margin: 1em auto;
+
+
 }
 
+
 .lb-data .lb-caption {
-  font-size: 13px;
+  font-size: 1em;
   font-weight: bold;
   line-height: 1em;
+
 }
 
 .lb-data .lb-caption a {
   color: #4ae;
+
 }
+
 
 .lb-data .lb-number {
   display: block;
