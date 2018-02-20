@@ -8,6 +8,7 @@ border-radius: 5px;
 text-align: left;
 display: block;
 height: 3%;
+font-size: 1.4em;
 }
 #container {
   width: 85%;
@@ -32,8 +33,8 @@ input[type="text"] {
 #container {
 flex-wrap: wrap;
 width: 75%;
-
 }
+
 #container a {
   margin: 1em;
 }
