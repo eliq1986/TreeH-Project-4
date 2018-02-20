@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 input[type="text"] {
-width: 80%;
+width: 70%;
 margin: 5% auto 0 auto;
 border-radius: 5px;
 text-align: left;
@@ -17,9 +17,10 @@ height: 3%;
   flex-wrap: wrap;
   justify-content: space-around;
 }
-#container img {
-  flex-grow: 3;
-  margin: 5px;
+#container a {
+  flex-basis: auto;
+  margin: .4em 1em;
+
 
 }
 
@@ -31,8 +32,9 @@ input[type="text"] {
 #container {
 flex-wrap: wrap;
 width: 75%;
+
 }
-#container img {
-  flex-grow: 5;
-  margin: 25px;
+#container a {
+  margin: 1em;
+}
 }
