@@ -36,9 +36,10 @@ input[type="text"] {
 #container {
 flex-wrap: wrap;
 width: 75%;
+max-width: 1000px;
 }
 /*======flex item=========*/
 #container a {
   margin: 1em;
-}
+
 }
