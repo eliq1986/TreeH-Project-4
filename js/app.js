@@ -1,3 +1,0 @@
-$('#search').hideseek({
-	attribute: 'alt'
-});
