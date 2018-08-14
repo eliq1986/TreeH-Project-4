@@ -1,46 +1,43 @@
 * {
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+html {
+  background: linear-gradient(to right,  black, white);
 }
 /*====== styles search bar=========*/
 input[type="text"] {
-width: 70%;
+width: 90%;
 margin: 5% auto 0 auto;
-border-radius: 5px;
+padding: .5em;
+border-radius: .5em;
+box-shadow: inset  #00000;
 text-align: left;
 display: block;
-height: 3%;
 font-size: 1.4em;
+max-width: 500px;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 300px;
+}
+p, h1 {
+  text-align: center;
+  color: white;
+}
+
+
+footer {
+  margin-top: 12em;
 }
  /*====== container with flexbox method=========*/
 #container {
-  width: 85%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
- /*======flex item=========*/
-#container a {
-  flex-basis: auto;
-  margin: .4em 1em;
-
-
-}
-
-@media (min-width: 1036px) {
-input[type="text"] {
-  width: 35.5%;
-  max-width: 500px;
-}
-/*====== container with flexbox method=========*/
-#container {
-flex-wrap: wrap;
-width: 75%;
-max-width: 1000px;
-}
-/*======flex item=========*/
-#container a {
-  margin: .5em;
+  max-width: 1000px;
+  display: grid;
+  margin: 1em auto;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 15px;
 
 }
