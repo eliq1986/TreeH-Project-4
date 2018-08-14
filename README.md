@@ -2,7 +2,7 @@
 
 [DEMO](https://eliq1986.github.io/TreeH-Project-4/)
 
-## Interactive Mobile first Photo-Gallery with live filtering
+## Responsive Interactive Photo-Gallery with live filtering
 Skills Learned:
 1. CSS Grid
 2. Plugins
