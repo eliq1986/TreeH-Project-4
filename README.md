@@ -1,6 +1,6 @@
 # Photo-Gallery
 
-[DEMO]("https://eliq1986.github.io/TreeH-Project-4/")
+[DEMO](https://eliq1986.github.io/TreeH-Project-4/)
 
 ## Interactive Photo-Gallery with live filtering
 Skills Learned:
